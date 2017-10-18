@@ -1,15 +1,16 @@
-Gem::Specification.new do |s|
-  s.name        = 'acts_as_boolean'
-  s.version     = '0.1.0'
-  s.platform    = Gem::Platform::RUBY
-  s.author      = 'Tim Harvey'
-  s.email       = 'tharvey@squaremouth.com'
-  s.summary     = 'Acts As Boolean'
-  s.description = 'Create question-mark attr_accessor model methods'
+Gem::Specification.new do |spec|
+  spec.name        = "acts_as_boolean"
+  spec.version     = "0.1.0"
+  spec.authors     = ["Squaremouth"]
+  spec.email       = ["developers@squaremouth.com"]
+  spec.summary     = "Acts As Boolean"
+  spec.description = "Create question-mark attr_accessor model methods"
+  spec.homepage    = "https://github.com/sqm/acts_as_boolean"
+  spec.license     = "Nonstandard"
 
-  s.files         = ['acts_as_boolean.rb']
-  s.test_file     = 'acts_as_boolean_spec.rb'
-  s.require_path  = '.'
+  spec.files         = ["acts_as_boolean.rb"]
+  spec.test_file     = "acts_as_boolean_spec.rb"
+  spec.require_path  = "."
 
-  s.add_development_dependency('rspec', ["~> 2.0"])
+  spec.add_development_dependency("rspec", ["~> 2.0"])
 end
