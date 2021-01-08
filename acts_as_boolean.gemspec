@@ -1,6 +1,8 @@
+require_relative 'version'
+
 Gem::Specification.new do |s|
   s.name        = 'acts_as_boolean'
-  s.version     = '0.1.0'
+  s.version     = ActsAsBoolean::VERSION
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Tim Harvey'
   s.email       = 'tharvey@squaremouth.com'
